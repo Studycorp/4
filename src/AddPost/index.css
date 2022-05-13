@@ -1,0 +1,10 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 20px;
+    font-size: large;
+}
+textarea {
+    resize: vertical;
+}

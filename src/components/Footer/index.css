@@ -1,0 +1,32 @@
+footer {
+    padding: 40px calc(50% - 496px);
+    background-color: #594dff;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+footer h4 {
+    margin: 0;
+}
+footer p {
+    margin: 0;
+}
+footer a {
+    text-decoration: none;
+    color: inherit;
+    line-height: 28px;
+}
+footer ul {
+    padding: 3;
+    margin: 3;
+    list-style-type: none;
+}
+footer>* {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.soc {
+    display: flex;
+    justify-content: space-between;
+text-decoration-color: aquamarine;
+}

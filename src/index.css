@@ -1,0 +1,27 @@
+@import "../node_modules/normalize.css/normalize.css";
+
+* {
+	box-sizing:inherit;	
+	
+}
+html {
+	box-sizing: border-box;
+	
+}
+body {
+	font-family: "Nunito", "Arial", "Helvetica", sans-serif;
+	
+
+
+}
+.post {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+ gap: 15px;
+	padding: 50px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px 0 #0008;
+	
+   
+	}
+
